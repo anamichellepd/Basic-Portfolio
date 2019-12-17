@@ -1,0 +1,146 @@
+* {
+    
+    text-align: center;
+  }
+
+body {
+    overflow: auto;
+    background-image: url("../images/greek-vase.png");
+    background-repeat: repeat; 
+    background-clip: border-box;
+    margin: 0;
+
+}
+.top{
+    position:relative;
+    padding: 40px;
+    background-color: white;
+    border-color: #cccccc;
+}
+.header{
+    position: absolute;
+    padding: 27px;
+    top: -30px;
+    left: 240px;
+    width: 200px;
+    color: #ffffff;;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    float: right;
+    text-decoration: none;
+    color: #777777;
+}
+   
+    a:link { color:#777777); }
+    a:visited {color:#777777}
+    a:hover { color: pink; }
+    a:active { color: yellow; }
+
+.separator {
+    float:right;
+}
+hr{
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #ffffff;
+}
+
+.whiteBox {
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: #dddddd;
+    width:960px;
+    height: 500px;
+}
+.aboutMe {
+    position: absolute;
+    display:block;
+    padding: 0px;
+    margin:auto;
+    top: 40px;
+    left: 3%;
+    width: 200px;
+    color: #4aaaa5;;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.greyLine{ 
+    position: absolute;
+    top: 100px;
+    display: block;
+    right:5%;
+    width: 90%;
+    height: 0px;
+    border-style: solid;
+    border-color:#dddddd;
+    border-width: thin;
+}
+.profilePic {
+    position:absolute;
+    height: 35%;
+    left: 5%;
+    top: 120px; 
+}
+.textOne {
+    position: absolute;
+    display: block;
+    top: 120px;
+    left: 353px;
+    right: 5%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+.textOnePointOne {
+    position: absolute;
+    display: block;
+    top: 206px;
+    left: 353px;
+    right: 5%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+.textTwo {
+    position:absolute;
+    display: block;
+    top:332px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+footer{
+    position:absolute;
+    width: 100%;
+    left:0;
+    bottom:0;
+    height: 30px;
+    clear: both;
+    padding: 30px;
+    background-color: #666666;
+}
+.greenBar{
+    position:absolute;
+    display: block;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+    border-style: solid;
+    border-color:#4aaaa5;
+    border-width: medium;
+    margin: 0px;
+    }
